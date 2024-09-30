@@ -39,8 +39,11 @@ def process_data(df):
                 'city': i['city'],
                 'state': i['state'],
                 'country': i['country'],
+                'longitude': i['longitude'],
+                'latitude': i['latitude'],
                 'phone': i['phone'],
-                'website': i['website_url']  
+                'website': i['website_url'],
+                'dat_ref': extract_date
             }
             breweries.append(breweries_data)
 
